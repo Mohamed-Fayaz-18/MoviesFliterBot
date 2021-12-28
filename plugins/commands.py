@@ -19,12 +19,12 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/SamanthaMoviesBot?startgroup=true')
+            InlineKeyboardButton('➕ Aᴅᴅ Mᴇʜ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url='https://t.me/KOT_MOVIES_FILTER_BOT?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🕵 Go Inline', switch_inline_query='')
+            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Mᴏᴠɪᴇs', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🕵 Gᴏ Iɴʟɪɴᴇ', switch_inline_query='')
             ],[
-            InlineKeyboardButton('⭕ Join For Movies ⭕', url='https://t.me/+jD86CLZqqUBjZDk1')
+            InlineKeyboardButton('⭕Kᴏᴛ Bᴏᴛs⭕', url='https://t.me/KOT_BOTS')
             ],[
             InlineKeyboardButton('🆘 Help', callback_data='help'),
             InlineKeyboardButton('👥 About', callback_data='about')
@@ -66,12 +66,12 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/SamanthaMoviesBot?startgroup=true')
+            InlineKeyboardButton('➕ Aᴅᴅ Mᴇʜ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url='https://t.me/KOT_MOVIES_FILTER_BOT?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🕵 Go Inline', switch_inline_query='')
+            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Mᴏᴠɪᴇs ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🕵 Gᴏ Iɴʟɪɴᴇ', switch_inline_query='')
             ],[
-            InlineKeyboardButton('⭕ Join For Movies ⭕', url='https://t.me/+jD86CLZqqUBjZDk1')
+            InlineKeyboardButton('⭕Kᴏᴛ Bᴏᴛs⭕', url='https://t.me/KOT_BOTS')
             ],[
             InlineKeyboardButton('🆘 Help', callback_data='help'),
             InlineKeyboardButton('👥 About', callback_data='about')

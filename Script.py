@@ -32,7 +32,7 @@ Here is the Help For My Bot Commands."""
 - Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. eva maria should have admin privillage.
+1. @KOT_MOVIES_FILTER_BOT should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -51,7 +51,7 @@ Here is the Help For My Bot Commands."""
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https//t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https//t.meKOT_MOVIES_FILTER_BOT)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""

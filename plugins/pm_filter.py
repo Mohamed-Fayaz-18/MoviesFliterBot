@@ -362,13 +362,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/TeleRoid_AutoFilterBot?startgroup=true')
+            InlineKeyboardButton('➕ Aᴅᴅ Mᴇʜ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url='http://t.me/KOT_MOVIES_FILTER_BOT?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🕵 Go Inline', switch_inline_query='')
+            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Mᴏᴠɪᴇs', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🕵 Gᴏ Iɴʟɪɴᴇ', switch_inline_query='')
             ],[
-            InlineKeyboardButton('⭕ Support ⭕', url='t.me/TeleRoid14'),
-            InlineKeyboardButton('⭕ Updates ⭕', url='https://t.me/TeleRoidGroup')
+            InlineKeyboardButton('⭕ Kᴏᴛ Sᴜᴘᴘᴏʀᴛ ⭕', url='t.me/KOT_REPORS'),
+            InlineKeyboardButton('⭕ Kᴏᴛ Bᴏᴛs ⭕', url='https://t.me/KOT_BOTS')
             ],[
             InlineKeyboardButton('🆘 Help', callback_data='help'),
             InlineKeyboardButton('👥 About', callback_data='about')
@@ -383,11 +383,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('🔆 Manual Filters', callback_data='manuelfilter'),
-            InlineKeyboardButton('🔅 Auto Filter', callback_data='autofilter')
+            InlineKeyboardButton('🔆 Mᴀɴᴜᴇʟ Fɪʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('🔅 Aᴜᴛᴏ Fɪʟᴛᴇʀ', callback_data='autofilter')
             ],[
-            InlineKeyboardButton('🔗 Connection', callback_data='coct'),
-            InlineKeyboardButton('🌀 Extra Mods', callback_data='extra')
+            InlineKeyboardButton('🔗 Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
+            InlineKeyboardButton('🌀 Exᴛʀᴀ Mᴏᴅ', callback_data='extra')
             ],[
             InlineKeyboardButton('🏡 Home', callback_data='start'),
             InlineKeyboardButton('📶 Status', callback_data='stats')
@@ -400,10 +400,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('⭕ Updates ⭕', url='https://t.me/TeleRoidGroup'),
-            InlineKeyboardButton('⭕ Support ⭕', url='https://t.me/TeleRoid14')
+            InlineKeyboardButton('⭕ Kᴏᴛ Bᴏᴛs ⭕', url='https://t.me/KOT_BOTS'),
+            InlineKeyboardButton('⭕ Kᴏᴛ Sᴜᴘᴘᴏʀᴛ ⭕', url='https://t.me/KOT_REPORS')
             ],[
-            InlineKeyboardButton('🚸 Powered By', url='https://t.me/MoviesFlixers_DL'),
+            InlineKeyboardButton('🚸 Pᴏᴡᴇʀ Bʏ', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL'),
             InlineKeyboardButton('💢 Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),

@@ -373,7 +373,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🆘 𝗛ᴇ𝗟ᴘ', callback_data='help'),
             InlineKeyboardButton('👥 ᴀ𝗕ᴏ𝗨ᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            InlineKeyboardButton('🔐 Cʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -389,8 +389,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔗 Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
             InlineKeyboardButton('🌀 Exᴛʀᴀ Mᴏᴅ', callback_data='extra')
             ],[
-            InlineKeyboardButton('🏡 Home', callback_data='start'),
-            InlineKeyboardButton('📶 Status', callback_data='stats')
+            InlineKeyboardButton('🏡 Hᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('📶 Sᴛᴀᴛᴜs', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -406,8 +406,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🚸 Pᴏᴡᴇʀ Bʏ', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL'),
             InlineKeyboardButton('💢 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
             ],[
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('🔐 Cʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(

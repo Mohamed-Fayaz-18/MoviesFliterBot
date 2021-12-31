@@ -370,8 +370,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⭕ Kᴏᴛ Sᴜᴘᴘᴏʀᴛ ⭕', url='t.me/KOT_REPORS'),
             InlineKeyboardButton('⭕ Kᴏᴛ Bᴏᴛs ⭕', url='https://t.me/KOT_BOTS')
             ],[
-            InlineKeyboardButton('🆘 Help', callback_data='help'),
-            InlineKeyboardButton('👥 About', callback_data='about')
+            InlineKeyboardButton('🆘 𝗛ᴇ𝗟ᴘ', callback_data='help'),
+            InlineKeyboardButton('👥 ᴀ𝗕ᴏ𝗨ᴛ', callback_data='about')
             ],[
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
@@ -404,7 +404,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⭕ Kᴏᴛ Sᴜᴘᴘᴏʀᴛ ⭕', url='https://t.me/KOT_REPORS')
             ],[
             InlineKeyboardButton('🚸 Pᴏᴡᴇʀ Bʏ', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL'),
-            InlineKeyboardButton('💢 Source', callback_data='source')
+            InlineKeyboardButton('💢 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')

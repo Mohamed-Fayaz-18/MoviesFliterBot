@@ -26,8 +26,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('⭕Kᴏᴛ Bᴏᴛs⭕', url='https://t.me/KOT_BOTS')
             ],[
-            InlineKeyboardButton('🆘 Help', callback_data='help'),
-            InlineKeyboardButton('👥 About', callback_data='about')
+            InlineKeyboardButton('🆘 𝗛ᴇ𝗟ᴘ', callback_data='help'),
+            InlineKeyboardButton('👥 ᴀ𝗕ᴏ𝗨ᴛ', callback_data='about')
             ],[
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
@@ -73,8 +73,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('⭕Kᴏᴛ Bᴏᴛs⭕', url='https://t.me/KOT_BOTS')
             ],[
-            InlineKeyboardButton('🆘 Help', callback_data='help'),
-            InlineKeyboardButton('👥 About', callback_data='about')
+            InlineKeyboardButton('🆘 𝗛ᴇ𝗟ᴘ', callback_data='help'),
+            InlineKeyboardButton('👥 ᴀ𝗕ᴏ𝗨ᴛ', callback_data='about')
             ],[
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
